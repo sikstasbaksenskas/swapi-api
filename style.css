@@ -1,0 +1,53 @@
+.heroes_data {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .heroes_data td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .heroes_data tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .heroes_block {
+    overflow-x:auto;
+    width: 1000px;
+  }
+
+  .nav_block {
+    width: 1000px;
+  }
+
+  .custom_inp {
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 147px;
+    border-radius: 5px;
+  }
+
+  .custom_btn {
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    background-color: #dddddd;
+  }
+
+  .btn_del {
+    display: block;
+    margin: auto;
+    background-color: rgb(163, 24, 24);
+    color: white;
+  }
+
+  .search_field {
+    border-color: #dddddd;
+  }
